@@ -1,0 +1,38 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+    padding: 10px;
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the search bar horizontally */
+  }
+  
+  .form-control {
+    flex: 1;
+    height: 40px;
+    text-indent: 10px;
+    border: 2px solid #cdd7e7;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border: 2px solid #929292;
+  }
+  
+  .fa-microphone {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #cdd7e7;
+  }
+  
+  .btn-primary {
+    height: 40px;
+    background: blue;
+    color: #cdd7e7;
+    border: none;
+    cursor: pointer;
+  }
+  

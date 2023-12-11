@@ -1,0 +1,26 @@
+.weeklyComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 17vw;
+    height: 10vh;
+  }
+  
+  .weeklyComponent p {
+    margin: 5px 0;
+  }
+  
+  .weeklyComponent img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 8%;
+  }
+
+  .weekly-component-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

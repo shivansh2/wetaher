@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+  }
+  
+  .nav-component {
+    height: 90vh;
+    width: 7vw;
+    display: flex;
+    flex-direction: column;
+    background: #CDD7E7;
+    justify-content: space-around;
+    align-items: center; /* Center vertically */
+    border-radius: 20px;
+  }
+  
+  .navbar-icon {
+    font-size: 2rem;
+    color: #4e6f9c;
+  }
+  

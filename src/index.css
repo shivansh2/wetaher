@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1B6FE4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Hourly-Comp-containe{
+
+}
+.Hourly-comp-outer{
+  display: flex;
+  width: 65vw;
+  justify-content: space-around;
+  /* align-items: center; */
+  background: #CDD7E7;
+  border-radius: 20px;
+}
+.Hourly-comp-outer2{
+  display: block;
+  background: #CDD7E7;
+  border-radius: 20px;
+}
+.weather-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather-inner-cont{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.air-conatiner{
+  display: flex;
+}
+.weather-query-profile{
+  display: flex;
+  justify-content: space-between;
+}
+.my-city-profile{
+  background: #CDD7E7;
+  border-radius: 20px;
+}
+.week-component{
+  background: #CDD7E7;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  border-radius: 20px;
+}
+.main-city-image{
+  width: 15vh;
+}
+.city-name{
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #CDD7E7 ;
+}
+.city-temp{
+  font-size: 45px;
+  /* margin-bottom: 0; */
+  font-weight: bold;
+  color: #CDD7E7;
+}
+.city-rain-chance{
+  margin-bottom: 0;
+  color: #CDD7E7;
+}
+.air-condition-temp{
+  font-size: 30px;
+  font-weight: bold;
+  color : #0A3064;
+}
+.air-condition-wrapper{
+  font-size: 22px;
+  margin-bottom: 0;
+}
